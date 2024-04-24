@@ -1,0 +1,91 @@
+body{
+    background: url(./background.png);
+    background-size: 100%;
+    color: #fff;
+}
+h2{
+    font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    font-size: 2vw;
+    
+}
+
+
+
+h1{
+    font-size: 5vw;
+}
+.p{
+    font-size: 24px;
+    font-family: "Archivo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    font-size: 1.6vw;
+}
+.container{
+    margin-left: 100px;
+    margin-top: 25px;
+}
+button{
+    width: 16vw;
+    height: 8vh;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+      font-size: 15px;
+    
+}
+.btn1{
+    background-color: #F1A5B1;
+    border: none;
+    border-radius: 4px;
+    color: #000;
+    transition: .4s;
+    
+}
+.btn1:hover{
+    background-color: #c4838c;
+    color: #fff;
+}
+.btn2{
+    background: transparent;
+    border-color: #F1A5B1;
+    color: #fff;
+    transition: .4s;
+    border-radius: 4px;
+    margin-left: 30px;
+}
+.btn2:hover{
+    background-color: #F1A5B1;
+    border: none;
+}
+.btn1 i{
+    margin-right: 5px;
+    width: 15px;
+}
+.bonecos{
+    float: right;
+    margin-top: -480px;
+    animation: float 3s ease-in-out infinite;
+}
+@keyframes float {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-30px);
+    }
+}
